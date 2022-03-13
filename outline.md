@@ -1,44 +1,39 @@
-# Main Section
+# Welcome
+- Introduction
+- Contact Info
+
+# Helpful Knowledge
+- Big O Notation
+- Recursion
 
 # Stack
-- Item 1
-  - another item
-- Item 2
-  - another item
-1. first thing
-2. second thing
-
-Paragraph of text keeps formatting in the same paragraph.
-adfasdf;lakjkljfklasd
-jasdlkjf;lkja;kljsldf
-
-Here's a link to the starting page [Link](0-welcome.md)
-
-Linkes to external sites [Google](https://google.com)
-
-My Image is: ![My Image File](https://#)
+- Introduction
+- Functions/Methods
+- Example 1
+- Example 2
+- Problem
+- Helpful Python Module
+- The Function Stack
+- References
 
 # Linked List
-### Introduction
-
-Operation     | Efficiency | Description
------------------------------------------
-Enqueue       | O(1)       | what is enqueue?
------------------------------------------
-Dequeue       | O(1)
----------------------------
-...           | ...
----------------------------
-
-> This is a nice quote by Jacob Farr
-
-
-`This is a single line of code`
-
-``` python
-def say_hello():
-  print("Hello")
-  return True
-```
+- Introduction
+- Inserting
+- Removing
+- Accessing
+- Example 1
+- Example 2
+- Problem
+- Helpful Python Module
+- References
 
 # Tree
+- Introduction
+- Inserting
+- Removing
+- Traversing
+- Example 1
+- Example 2
+- Problem
+- Helpful Python Module
+- References
