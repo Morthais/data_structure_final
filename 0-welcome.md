@@ -1,4 +1,4 @@
-# Introduction
+# Welcome!
 
 Hello, World! Welcome to my Data Structures Tutorial! I hope you're ready to learn about stacks, linked lists, and trees. Before diving in to the first lesson, please read the Helpful Knowledge for ideas that may help you wrap your head around these data structures.
 
