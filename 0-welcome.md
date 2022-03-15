@@ -6,13 +6,13 @@ The lessons all follow a similar pattern with important variations depending on 
 
 Thank you for your interest in my tutorial! I hope you learn something new. Please get in touch with me if you have any questions! I'm always open to new ideas and constructive feedback, so work hard through this tutorial and let me know what you think!
 
-START HERE -----> Helpful Knowledge
+[START HERE -----> Helpful Knowledge](https://github.com/Morthais/data_structure_final/blob/main/helpful_knowledge.md)
 
-1st Lesson -----> Stack
+[1st Lesson -----> Stack](https://github.com/Morthais/data_structure_final/blob/main/1-stack.md)
 
-2nd Lesson -----> Linked List
+[2nd Lesson -----> Linked List](https://github.com/Morthais/data_structure_final/blob/main/2-linked_list.md)
 
-3rd Lesson -----> Tree
+[3rd Lesson -----> Tree](https://github.com/Morthais/data_structure_final/blob/main/3-tree.md)
 
 # Contact
 
