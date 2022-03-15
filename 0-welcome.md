@@ -9,5 +9,7 @@ Thank you for your interest in my tutorial! I hope you learn something new that 
 # Contact Information
 
 Jacob Farr
+
 Email: girobyte98@gmail.com
+
 Cell: 8034482077
