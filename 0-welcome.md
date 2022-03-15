@@ -11,5 +11,3 @@ Thank you for your interest in my tutorial! I hope you learn something new that 
 <b>Jacob Farr</b>
 
 <b>Email:</b> girobyte98@gmail.com
-
-<b>Cell:</b> 8034482077
