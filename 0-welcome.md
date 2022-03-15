@@ -14,6 +14,6 @@ START HERE -----> Helpful Knowledge
 
 3rd Lesson -----> Tree
 
-# Contact Information
+# Contact
 
 <b>Jacob Farr -----> Email: girobyte98@gmail.com</b>
