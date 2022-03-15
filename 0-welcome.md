@@ -7,8 +7,11 @@ The lessons all follow a similar pattern with important variations depending on 
 Thank you for your interest in my tutorial! I hope you learn something new. Please get in touch with me if you have any questions! I'm always open to new ideas and constructive feedback, so work hard through this tutorial and let me know what you think!
 
 START HERE -----> Helpful Knowledge
+
 1st Lesson -----> Stack
+
 2nd Lesson -----> Linked List
+
 3rd Lesson -----> Tree
 
 # Contact Information
