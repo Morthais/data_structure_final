@@ -8,7 +8,7 @@ Thank you for your interest in my tutorial! I hope you learn something new that 
 
 # Contact Information
 
-<title>Jacob Farr</title>
+<b>Jacob Farr</b>
 
 <b>Email:</b> girobyte98@gmail.com
 
