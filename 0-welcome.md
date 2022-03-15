@@ -8,4 +8,4 @@ Thank you for your interest in my tutorial! I hope you learn something new. Plea
 
 # Contact Information
 
-<b>Jacob Farr</b> ----- <b>Email:</b> girobyte98@gmail.com
+<b>Jacob Farr</b> -----> <b>Email:</b> girobyte98@gmail.com
