@@ -16,4 +16,4 @@ START HERE -----> Helpful Knowledge
 
 # Contact
 
-<b>Jacob Farr -----> Email: girobyte98@gmail.com</b>
+Jacob Farr -----> Email: girobyte98@gmail.com
