@@ -8,8 +8,8 @@ Thank you for your interest in my tutorial! I hope you learn something new that 
 
 # Contact Information
 
-Jacob Farr
+<title>Jacob Farr</title>
 
-Email: girobyte98@gmail.com
+<b>Email:</b> girobyte98@gmail.com
 
-Cell: 8034482077
+<b>Cell:</b> 8034482077
