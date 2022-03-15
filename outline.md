@@ -1,10 +1,11 @@
 # Welcome
-- Introduction
-- Contact Info
+- Welcome!
+- Contact
 
 # Helpful Knowledge
 - Big O Notation
 - Recursion
+- The Function Stack
 
 # Stack
 - Introduction
@@ -13,7 +14,6 @@
 - Example 2
 - Problem
 - Helpful Python Module
-- The Function Stack
 - References
 
 # Linked List
@@ -47,5 +47,3 @@
 - Stack Solutions
 - Linked List Solutions
 - Tree Solutions
-
-# Other Files TBD
