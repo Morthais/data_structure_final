@@ -37,3 +37,15 @@
 - Problem
 - Helpful Python Module
 - References
+
+# Picture Files
+- Stack Images
+- Linked List Images
+- Tree Images
+
+# Python Files
+- Stack Solutions
+- Linked List Solutions
+- Tree Solutions
+
+# Other Files TBD
