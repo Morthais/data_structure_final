@@ -108,9 +108,13 @@ Reverse the following three sentences using one stack:
 
 "It's the possibility of having a dream come true that makes life interesting. ― Paulo Coelho, The Alchemist"
 
-## Helpful Python Module
+## Explore a Python Module
 
-TBD
+The first link is to a Python stack module from the built-in Python queue class. The second link is on the same page and shows what methods/functions are available to you in this module. It includes a put, get, empty, and size among others. This is optional learning and may or may not help you with the problem above.
+
+![Python queue.LifoQueue](https://docs.python.org/3/library/queue.html#queue.LifoQueue)
+
+![Python queue.Queue Methods](https://docs.python.org/3/library/queue.html#queue-objects)
 
 ## References
 
