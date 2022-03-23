@@ -35,7 +35,39 @@ What is the performance of a stack? NOTE: This should probably be answered in th
 How would a stack be used in Python? In Python, a stack is basically just a list that follows the Last In First Out rules. NOTE: Show Example
 
 ```
+"""
+Example of how to push and pop from a stack of bricks in Python.
+"""
+import time
 
+def push_stack(stack_of_bricks):
+    # create 5 bricks
+    for brick in range(1, 6):
+        time.sleep(1)   # wait 1 second
+        stack_of_bricks.append(f"Brick {brick}")    # put a brick on the stack
+        print(f"Pushed {stack_of_bricks[brick - 1]} to the stack: {stack_of_bricks}")     # show the updated stack
+    
+    return stack_of_bricks
+
+
+def pop_stack(stack_of_bricks):
+    # go through all 5 bricks
+    for brick in range(1, 6):
+        time.sleep(1)   # wait 1 second
+        removed_brick = stack_of_bricks.pop()   # remove a brick from the stack
+        print(f"Popped {removed_brick} from the stack: {stack_of_bricks}")     # show the updated stack
+
+
+# the stack
+stack_of_bricks = []
+
+print("\nNow pushing to the stack . . . . .")
+stack_of_bricks = push_stack(stack_of_bricks)
+print()
+
+print("Now popping off the stack . . . . .")
+pop_stack(stack_of_bricks)
+print()
 ```
 
 ## Example 2
