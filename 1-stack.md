@@ -100,7 +100,13 @@ reverse_sentence(reversed_sentence)
 
 ## Problem
 
-Reverse the paragraph using a Python stack.
+Reverse three sentences using one stack:
+
+"For the first time, he heard something that he knew to be music. He heard people singing. Behind him, across vast distances of space and time, from the place he had left, he thought he heard music too. But perhaps, it was only an echo. ― Lois Lowry, quote from The Giver"
+
+"When you teach them-teach them not to fear. Fear is good in small amounts, but when it is a constant, pounding companion, it cuts away at who you are and makes it hard to do what you know is right. ― Christopher Paolini, Inheritance"
+
+"It's the possibility of having a dream come true that makes life interesting. ― Paulo Coelho, The Alchemist"
 
 ## Helpful Python Module
 
