@@ -74,11 +74,33 @@ print()
 
 How would a stack be used in Python? In Python, a stack is basically just a list that follows the Last In First Out rules. NOTE: Show Example
 
-TBD
+```
+"""
+Example of how to reverse a sentence in Python using stacks.
+"""
+
+original_stack = list("It is possible to commit no mistakes and still lose. That is not weakness, that is life. ― Jean-Luc Picard")
+reversed_stack = []
+reversed_sentence = ""
+
+def reverse_sentence(reversed_sentence):
+    # reverse the sentence using a stack
+    for char in range(len(original_stack)):
+        last_char = original_stack.pop()
+        reversed_stack.append(last_char)
+
+    # build the reversed sentence string from the reversed stack
+    for char in range(len(reversed_stack)):
+        reversed_sentence = reversed_sentence + reversed_stack[char]
+
+    print(reversed_sentence)
+
+reverse_sentence(reversed_sentence)
+```
 
 ## Problem
 
-TBD
+Reverse the paragraph using a Python stack.
 
 ## Helpful Python Module
 
