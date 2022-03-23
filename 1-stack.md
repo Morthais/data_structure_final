@@ -34,7 +34,9 @@ What is the performance of a stack? NOTE: This should probably be answered in th
 
 How would a stack be used in Python? In Python, a stack is basically just a list that follows the Last In First Out rules. NOTE: Show Example
 
-TBD
+```
+
+```
 
 ## Example 2
 
