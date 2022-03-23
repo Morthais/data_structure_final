@@ -100,7 +100,7 @@ reverse_sentence(reversed_sentence)
 
 ## Problem
 
-Reverse three sentences using one stack:
+Reverse the following three sentences using one stack:
 
 "For the first time, he heard something that he knew to be music. He heard people singing. Behind him, across vast distances of space and time, from the place he had left, he thought he heard music too. But perhaps, it was only an echo. ― Lois Lowry, quote from The Giver"
 
