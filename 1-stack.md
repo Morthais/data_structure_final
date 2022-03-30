@@ -30,14 +30,11 @@ What is the performance of a stack? NOTE: This should probably be answered in th
 |check_top()|print(stack_list[-1])|Show the last item in the stack.|O(1), Constant Time performance for printing an item from a stack.|
 |check_size()|print(len(stack_list))|Return and show the length of a stack.|O(1), Constant Time performance for checking the length of a stack.|
 
-## Example 1
+## Example
 
-How would a stack be used in Python? In Python, a stack is basically just a list that follows the Last In First Out rules. NOTE: Show Example
+How would a stack be used in Python? Remember, a stack is basically just a list that follows the Last In First Out rules. Copy the example below into your code editor and run it to better understand how stacks work.
 
 ```
-"""
-Example of how to push and pop from a stack of bricks in Python.
-"""
 import time
 
 def push_stack(stack_of_bricks):
@@ -70,7 +67,7 @@ pop_stack(stack_of_bricks)
 print()
 ```
 
-## Example 2
+## Problem
 
 How would a stack be used in Python? In Python, a stack is basically just a list that follows the Last In First Out rules. NOTE: Show Example
 
@@ -97,16 +94,6 @@ def reverse_sentence(reversed_sentence):
 
 reverse_sentence(reversed_sentence)
 ```
-
-## Problem
-
-Reverse the following three sentences using one stack:
-
-"For the first time, he heard something that he knew to be music. He heard people singing. Behind him, across vast distances of space and time, from the place he had left, he thought he heard music too. But perhaps, it was only an echo. ― Lois Lowry, quote from The Giver"
-
-"When you teach them-teach them not to fear. Fear is good in small amounts, but when it is a constant, pounding companion, it cuts away at who you are and makes it hard to do what you know is right. ― Christopher Paolini, Inheritance"
-
-"It's the possibility of having a dream come true that makes life interesting. ― Paulo Coelho, The Alchemist"
 
 ## Explore a Python Module
 
