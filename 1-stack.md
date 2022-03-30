@@ -69,30 +69,37 @@ print()
 
 ## Problem
 
-How would a stack be used in Python? In Python, a stack is basically just a list that follows the Last In First Out rules. NOTE: Show Example
+Now it's your turn! I want you to reverse the following three sentences using stacks in Python.
+
+1. ".gnitseretni efil sekam taht eurt emoc maerd a gnivah fo ytilibissop eht s'tI"
+2. ".ssendlob ,namow gnuoy a ni ,ytidimit si nam a ni evol eurt fo motpmys tsrif ehT"
+3. ".eveileb uoy tahw rof gnireffus dna gnivil ni si egaruoc laer ehT .nommoc etiuq yllautca s'ti ;sfeileb rieht rof deid evah elpoep ynam taht dnim ni peeK"
 
 ```
 """
-Example of how to reverse a sentence in Python using stacks.
+One way to reverse a sentence in Python using stacks.
 """
 
-original_stack = list("It is possible to commit no mistakes and still lose. That is not weakness, that is life. ― Jean-Luc Picard")
-reversed_stack = []
-reversed_sentence = ""
+def reverse_sentence(original_sentence, reverse_stack, result):
+    pass
 
-def reverse_sentence(reversed_sentence):
-    # reverse the sentence using a stack
-    for char in range(len(original_stack)):
-        last_char = original_stack.pop()
-        reversed_stack.append(last_char)
+    
+# Three sentences to reverse
+sentence_1 = ".gnitseretni efil sekam taht eurt emoc maerd a gnivah fo ytilibissop eht s'tI"
+sentence_2 = ".ssendlob ,namow gnuoy a ni ,ytidimit si nam a ni evol eurt fo motpmys tsrif ehT"
+sentence_3 = ".eveileb uoy tahw rof gnireffus dna gnivil ni si egaruoc laer ehT .nommoc etiuq yllautca s'ti ;sfeileb rieht rof deid evah elpoep ynam taht dnim ni peeK"
 
-    # build the reversed sentence string from the reversed stack
-    for char in range(len(reversed_stack)):
-        reversed_sentence = reversed_sentence + reversed_stack[char]
+# Reverse the first sentence
 
-    print(reversed_sentence)
+reverse_sentence(original_sentence, reverse_stack, result)
 
-reverse_sentence(reversed_sentence)
+# Reverse the second sentence
+
+reverse_sentence(original_sentence, reverse_stack, result)
+
+# Reverse the third sentence
+
+reverse_sentence(original_sentence, reverse_stack, result)
 ```
 
 ## Explore a Python Module
