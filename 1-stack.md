@@ -16,7 +16,9 @@ Every data structure is a tool that is better at solving some problems than othe
 
 ### What kind of errors are common when using a stack?
 
-TBD
+Common errors when using a stack are any errors common to the Python List.
+
+![Index Error](https://user-images.githubusercontent.com/60240900/160949510-162fd322-01c9-4c62-8de1-77fade07a8eb.png)
 
 ## Stack Functions/Methods in Python
 
