@@ -18,7 +18,19 @@ Every data structure is a tool that is better at solving some problems than othe
 
 Common errors when using a stack are any errors common to the Python List.
 
+Index Error
+
 ![Index Error](https://user-images.githubusercontent.com/60240900/160949510-162fd322-01c9-4c62-8de1-77fade07a8eb.png)
+
+Name Error
+
+![Name Error](https://user-images.githubusercontent.com/60240900/160949706-4eb86a59-4a4b-48a2-bfd2-fc77d2f228bf.png)
+
+Attribute Error
+
+![Attribute Error](https://user-images.githubusercontent.com/60240900/160949891-12c1d36a-5b77-4b95-9642-7d875f40f92c.png)
+
+
 
 ## Stack Functions/Methods in Python
 
