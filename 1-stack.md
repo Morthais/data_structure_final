@@ -90,11 +90,13 @@ print()
 
 ## Problem
 
-Now it's your turn! I want you to reverse the following three sentences using stacks in Python.
+Now it's your turn! Reverse the three following sentences using stacks in Python.
 
 1. ".gnitseretni efil sekam taht eurt emoc maerd a gnivah fo ytilibissop eht s'tI"
 2. ".ssendlob ,namow gnuoy a ni ,ytidimit si nam a ni evol eurt fo motpmys tsrif ehT"
 3. ".eveileb uoy tahw rof gnireffus dna gnivil ni si egaruoc laer ehT .nommoc etiuq yllautca s'ti ;sfeileb rieht rof deid evah elpoep ynam taht dnim ni peeK"
+
+HINT: Reversing a sentence may require using more than one stack.
 
 ```
 """
@@ -102,13 +104,16 @@ One way to reverse a sentence in Python using stacks.
 """
 
 def reverse_sentence(original_sentence, reverse_stack, result):
+    # TODO: add any code necessary here
     pass
 
     
-# Three sentences to reverse
+# The three sentences to reverse
 sentence_1 = ".gnitseretni efil sekam taht eurt emoc maerd a gnivah fo ytilibissop eht s'tI"
 sentence_2 = ".ssendlob ,namow gnuoy a ni ,ytidimit si nam a ni evol eurt fo motpmys tsrif ehT"
 sentence_3 = ".eveileb uoy tahw rof gnireffus dna gnivil ni si egaruoc laer ehT .nommoc etiuq yllautca s'ti ;sfeileb rieht rof deid evah elpoep ynam taht dnim ni peeK"
+
+# TODO: add any additional variables required to reverse a sentence using stacks
 
 # Reverse the first sentence
 
@@ -131,6 +136,6 @@ The first link is to a Python stack module from the built-in Python queue class.
 
 [Python queue.Queue Methods](https://docs.python.org/3/library/queue.html#queue-objects)
 
-## References
+## Solution
 
 TBD
