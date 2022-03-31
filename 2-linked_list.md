@@ -6,8 +6,6 @@
 
 What is a Linked List?
 
-A Linked List is a data structure which is not built
-
 What is the purpose of a Linked List?
 
 What kind of errors are common when using a Linked List?
