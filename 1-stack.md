@@ -93,6 +93,8 @@ Now it's your turn! Reverse the three following sentences using stacks in Python
 
 HINT: Reversing a sentence may require using more than one stack.
 
+Here is some code to get you started.
+
 ```
 """
 One way to reverse a sentence in Python using stacks.
