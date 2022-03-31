@@ -138,4 +138,4 @@ The first link is to a Python stack module from the built-in Python queue class.
 
 ## Solution
 
-TBD
+[Reverse Sentence Solution](https://github.com/Morthais/data_structure_final/blob/main/1-stack_solution.md)
