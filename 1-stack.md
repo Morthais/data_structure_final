@@ -34,9 +34,9 @@ Indentation Error
 
 ![Indentation Error](https://user-images.githubusercontent.com/60240900/160950017-478a1f9c-33d8-4767-b0a1-6ce853e2d9a3.png)
 
-## Stack Functions/Methods in Python
+## Stack Functions in Python
 
-What is the performance of a stack? NOTE: This should probably be answered in the functions section, showing the Big O Notation of each function.
+When considering a data structure it is important to know the performance of that data structure. As you learn the functions used by stacks, consider how efficient the stack operation is by reading it's [Big O Notation](https://jarednielsen.com/big-o-notation/)
 
 |Function|Python Code|Description|Performance|
 |---|---|---|---|
