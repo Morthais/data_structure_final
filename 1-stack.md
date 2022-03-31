@@ -36,7 +36,7 @@ Indentation Error
 
 ## Stack Functions in Python
 
-When considering a data structure it is important to know the performance of that data structure. As you learn the functions used by stacks, consider how efficient the stack operation is by reading it's [Big O Notation](https://jarednielsen.com/big-o-notation/)
+When considering a data structure it is important to know the performance of that data structure. As you learn the functions used by stacks, consider how efficient the stack operation is by reading it's Big O Notation. Basically, the Big O Notation of an operation is how fast it is. About halfway down [this](https://jarednielsen.com/big-o-notation/) article you will see a table explaining the most important notations to know and their speeds.
 
 |Function|Python Code|Description|Performance|
 |---|---|---|---|
