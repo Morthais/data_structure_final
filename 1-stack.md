@@ -34,6 +34,10 @@ Indentation Error
 
 ![Indentation Error](https://user-images.githubusercontent.com/60240900/160950017-478a1f9c-33d8-4767-b0a1-6ce853e2d9a3.png)
 
+Here is a link to built-in error types in Python for further reference documentation:
+
+[Error Types in Python](https://www.tutorialsteacher.com/python/error-types-in-python)
+
 
 ## Stack Functions/Methods in Python
 
