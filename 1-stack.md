@@ -34,11 +34,6 @@ Indentation Error
 
 ![Indentation Error](https://user-images.githubusercontent.com/60240900/160950017-478a1f9c-33d8-4767-b0a1-6ce853e2d9a3.png)
 
-Here is a link to built-in error types in Python for further reference documentation:
-
-[Error Types in Python](https://www.tutorialsteacher.com/python/error-types-in-python)
-
-
 ## Stack Functions/Methods in Python
 
 What is the performance of a stack? NOTE: This should probably be answered in the functions section, showing the Big O Notation of each function.
@@ -136,6 +131,8 @@ The first link is to a Python stack module from the built-in Python queue class.
 
 [Python queue.Queue Methods](https://docs.python.org/3/library/queue.html#queue-objects)
 
-## Solution
+## References
 
 [Reverse Sentence Solution](https://github.com/Morthais/data_structure_final/blob/main/1-stack_solution.md)
+[Error Types in Python](https://www.tutorialsteacher.com/python/error-types-in-python)
+[Extra Help with Stacks](https://realpython.com/how-to-implement-python-stack/)
