@@ -12,7 +12,7 @@ Imagine you are building a pile of bricks. A pile of bricks is built by placing 
 
 ### What is the purpose of a stack? 
 
-Every data structure is a tool that is better at solving some problems than others. A stack is really good at remembering where we have been. There are many uses for retaining a history, but one of the most important is the function stack. [The Function Stack]() is a good example of a stack implemented in programs every day and is good to understand as you move forward to develop more complex software.
+Every data structure is a tool that is better at solving some problems than others. A stack is really good at remembering where we have been. There are many uses for retaining a history, but one of the most important is the function stack. [The Function Stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_Stack) is a good example of a stack implemented in programs every day and is good to understand as you move forward to develop more complex software.
 
 ### What kind of errors are common when using a stack?
 
