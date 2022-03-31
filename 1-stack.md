@@ -134,5 +134,7 @@ The first link is to a Python stack module from the built-in Python queue class.
 ## References
 
 [Reverse Sentence Solution](https://github.com/Morthais/data_structure_final/blob/main/1-stack_solution.md)
+
 [Error Types in Python](https://www.tutorialsteacher.com/python/error-types-in-python)
+
 [Extra Help with Stacks](https://realpython.com/how-to-implement-python-stack/)
