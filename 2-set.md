@@ -97,12 +97,8 @@ def intersection(set1, set2):
     operators (+, -, *, &, |) and functions (intersection, union) 
     that are built-in to Python.
     """
-    new_set = set()
-    for item in set1:
-        if item in set2:
-            new_set.add(item)
-    
-    return new_set
+    # TODO: add any necessary code here
+    pass
 
 def union(set1, set2):
     """
@@ -110,11 +106,8 @@ def union(set1, set2):
     from both sets.   Do not use the set operators (+, -, *, &, |)
     and functions (intersection, union) that are built-in to Python.
     """
-    new_set = set1
-    for item in set2:
-        new_set.add(item)
-
-    return new_set
+    # TODO: add any necessary code here
+    pass
 
 # DO NOT CHANGE
 bag_1 = {"Shoes", "Laptop", "Book", 23, 7, 156, True}
