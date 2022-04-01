@@ -22,7 +22,7 @@ TBD
 
 ## Set Functions in Python
 
-When considering a data structure it is important to know the performance of that data structure. As you learn the functions used by sets, consider how efficient the set operation is by finding it's Big O Notation. Basically, the Big O Notation of an operation is a measure of how fast it is. Here is a new [article](https://medium.com/fintechexplained/time-complexities-of-python-data-structures-ddb7503790ef) on Big O Notation. I recommend reading at least half of the article to get a better handle on Big O Notation. It will become increasingly important going forward to know the performance of data structures.
+When considering a data structure it is important to know the performance of that data structure. As you learn the functions used by sets, consider how efficient the set operation is by finding it's Big O Notation. Basically, the Big O Notation of an operation is a measure of how fast it is. Here is a relatively new [article](https://medium.com/fintechexplained/time-complexities-of-python-data-structures-ddb7503790ef) on Big O Notation. I recommend reading at least half of the article to get a better handle on Big O Notation. It will become increasingly important going forward to know the performance of data structures.
 
 |Function|Python Code|Description|Performance|
 |---|---|---|---|
