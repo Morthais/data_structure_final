@@ -2,27 +2,18 @@
 - Welcome!
 - Contact
 
-# Helpful Knowledge
-- Big O Notation
-- Recursion
-- The Function Stack
-
 # Stack
 - Introduction
 - Functions/Methods
-- Example 1
-- Example 2
+- Example
 - Problem
 - Helpful Python Module
 - References
 
-# Linked List
+# Set
 - Introduction
-- Inserting
-- Removing
-- Accessing
-- Example 1
-- Example 2
+- Functions/Methods
+- Example
 - Problem
 - Helpful Python Module
 - References
