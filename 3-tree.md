@@ -8,7 +8,7 @@ TODO: Talk about recursion in this module.
 
 Imagine your biological family history. If you are like most people then you have one mother and one father. Following this pattern, each pf your parents also has a mother and a father (you call these your grandparents). Yet further, back to the beginning of time, every person has one biological mother and father. We call a visual representation of this a family tree. Trees are a useful data structure for representing genealogy, but they have other uses as well. We won't go into applied trees in this tutorial, but you will learn how to build a basic binary tree and a few functions used to operate upon a binary tree.
 
-(Family Tree)[https://3.bp.blogspot.com/-P2oMmKK1gkU/T-8P2U1cIxI/AAAAAAAAB2c/l_fwipwdhGw/s1600/Family_Tree+.jpg]
+!(Family Tree)[https://3.bp.blogspot.com/-P2oMmKK1gkU/T-8P2U1cIxI/AAAAAAAAB2c/l_fwipwdhGw/s1600/Family_Tree+.jpg]
 
 ## Inserting
 
