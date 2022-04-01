@@ -35,7 +35,45 @@ When considering a data structure it is important to know the performance of tha
 
 ## Example 1
 
-TBD
+The following example shows how set.add() is implemented to construct two the union() and intersection() functions. It is important not only to know what functions are necessary, but how they work. Please run the code and tinker around with it to understand what it going on "behind-the-scenes" with these Python functions. I challenge you to read into how other functions work in the future. This will make you a better programmer by developing a more wholistic picture of what you are actually doing when you write some code.
+
+```
+def intersection(set1, set2):
+    """
+    Perform an intersection between 2 sets.  An intersection will contain
+    the items in common between both sets.  Do not use the set 
+    operators (+, -, *, &, |) and functions (intersection, union) 
+    that are built-in to Python.
+    """
+    new_set = set()
+    for number in set1:
+        if number in set2:
+            new_set.add(number)
+    
+    return new_set
+
+def union(set1, set2):
+    """
+    Perform a union between 2 sets.  A union will contain all the items
+    from both sets.   Do not use the set operators (+, -, *, &, |)
+    and functions (intersection, union) that are built-in to Python.
+    """
+    new_set = set1
+    for number in set2:
+        new_set.add(number)
+
+    return new_set
+
+s1 = {1,2,3,4,5}
+s2 = {4,5,6,7,8}
+print(intersection(s1,s2))  # Should show {4, 5}
+print(union(s1,s2)) # Should show {1, 2, 3, 4, 5, 6, 7, 8}
+
+s1 = {1,2,3,4,5}
+s2 = {6,7,8,9,10}
+print(intersection(s1,s2))  # Should show an empty set
+print(union(s1,s2)) # Should show {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+```
 
 ## Problem
 
