@@ -18,7 +18,14 @@ Every data structure is a tool that is better at solving some problems than othe
 
 ### What kind of errors are common when using a Set?
 
-TBD
+Runtime Error
+
+![Runtime Error](https://user-images.githubusercontent.com/60240900/161179679-ccb25ca1-af8a-4436-9315-c99f98c32465.png)
+
+Key Error
+
+![Key Error](https://user-images.githubusercontent.com/60240900/161179909-0f299ceb-f762-43cf-a29d-1bf41c3882e5.png)
+
 
 ## Set Functions in Python
 
@@ -43,6 +50,12 @@ How would a set be implemented in Python? Remember, a set on the most basic leve
 
 ## Problem
 
+Throughout your career you will be required to explain what your code does and why it does what it does. In order to be prepared for such times it will become increasingly important to learn what is going on "behind-the-scenes" with the functions you learn. Not only will this type of practice protect you from deep embarassment... you will become a better programmer for it.
+
+Now it's your turn! Implement the intersection() and union() functions without using the built-in Python methods.
+
+HINT: You have already learned everything you need to do this... if you need further help, reread the sections above or use Google.
+
 ```
 def intersection(set1, set2):
     """
@@ -51,12 +64,8 @@ def intersection(set1, set2):
     operators (+, -, *, &, |) and functions (intersection, union) 
     that are built-in to Python.
     """
-    new_set = set()
-    for number in set1:
-        if number in set2:
-            new_set.add(number)
-    
-    return new_set
+    # TODO: add any code necessary here
+    pass
 
 def union(set1, set2):
     """
@@ -64,17 +73,16 @@ def union(set1, set2):
     from both sets.   Do not use the set operators (+, -, *, &, |)
     and functions (intersection, union) that are built-in to Python.
     """
-    new_set = set1
-    for number in set2:
-        new_set.add(number)
+    # TODO: add any code necessary here
+    pass
 
-    return new_set
-
+# DO NOT CHANGE
 bag_1 = {"Shoes", "Laptop", "Book", 23, 7, 156, True}
 bag_2 = {"Medicine", "Laptop", "Shoes", "Lunch", 23, 51, 48, False, True}
 print(intersection(s1,s2))  # Should show {4, 5}
 print(union(s1,s2)) # Should show {1, 2, 3, 4, 5, 6, 7, 8}
 
+# DO NOT CHANGE
 bag_1 = {"Shoes", "Laptop", "Book", 23, 7, 156, True}
 bag_2 = {"Medicine", "Pen", "Paper", "Lunch", 8, 51, 48, False}
 print(intersection(s1,s2))  # Should show an empty set
