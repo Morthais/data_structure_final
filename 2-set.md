@@ -35,7 +35,13 @@ When considering a data structure it is important to know the performance of tha
 
 ## Example 1
 
-The following example shows how set.add() is implemented to construct two the union() and intersection() functions. It is important not only to know what functions are necessary, but how they work. Please run the code and tinker around with it to understand what it going on "behind-the-scenes" with these Python functions. I challenge you to read into how other functions work in the future. This will make you a better programmer by developing a more wholistic picture of what you are actually doing when you write some code.
+How would a set be implemented in Python? Remember, a set on the most basic level just a list that doesn't allow duplicates. Copy the example below into your code editor and run it to better understand how sets work.
+
+```
+
+```
+
+## Problem
 
 ```
 def intersection(set1, set2):
@@ -64,20 +70,16 @@ def union(set1, set2):
 
     return new_set
 
-s1 = {1,2,3,4,5}
-s2 = {4,5,6,7,8}
+bag_1 = {"Shoes", "Laptop", "Book", 23, 7, 156, True}
+bag_2 = {"Medicine", "Laptop", "Shoes", "Lunch", 23, 51, 48, False, True}
 print(intersection(s1,s2))  # Should show {4, 5}
 print(union(s1,s2)) # Should show {1, 2, 3, 4, 5, 6, 7, 8}
 
-s1 = {1,2,3,4,5}
-s2 = {6,7,8,9,10}
+bag_1 = {"Shoes", "Laptop", "Book", 23, 7, 156, True}
+bag_2 = {"Medicine", "Pen", "Paper", "Lunch", 8, 51, 48, False}
 print(intersection(s1,s2))  # Should show an empty set
 print(union(s1,s2)) # Should show {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 ```
-
-## Problem
-
-TBD
 
 ## Helpful Python Module
 
