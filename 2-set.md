@@ -26,6 +26,14 @@ Key Error
 
 ![Key Error](https://user-images.githubusercontent.com/60240900/161179909-0f299ceb-f762-43cf-a29d-1bf41c3882e5.png)
 
+Type Error 1
+
+![Type Error](https://user-images.githubusercontent.com/60240900/161181071-f6dd62d6-1925-4582-a6c0-5e07c4b931ad.png)
+
+Type Error 2
+
+![Type Error](https://user-images.githubusercontent.com/60240900/161181171-55baeb43-06d0-4853-bc5d-727ef4a68197.png)
+
 
 ## Set Functions in Python
 
@@ -42,10 +50,35 @@ When considering a data structure it is important to know the performance of tha
 
 ## Example 1
 
-How would a set be implemented in Python? Remember, a set on the most basic level just a list that doesn't allow duplicates. Copy the example below into your code editor and run it to better understand how sets work.
+How would a set be implemented in Python? Remember, a set on the most basic level just a list that doesn't allow duplicates. Copy the example below into your code editor and run it to better understand how sets work. Play around a little on your own as well to discover some of the unique behavior of sets.
 
 ```
+import time
 
+# create an empty bag
+bag = set()
+print("Empty Bag: ", bag)
+
+def set_add(bag):
+    # add items to the bag
+    for item in range(6):
+        print(f"Adding item {item} to the set: ", bag)
+        bag.add(item)
+        time.sleep(1)
+
+set_add(bag)
+print("Filled bag: ", bag)
+
+def set_remove(bag):
+    # remove items from the bag
+    for item in range(len(bag)):
+        if item in bag: # returns True if item is in the bag
+            print(f"Removing {item} from the bag: ", bag)
+            bag.remove()
+            time.sleep(1)
+
+set_remove(bag)
+print("Empty Bag: ", bag)
 ```
 
 ## Problem
@@ -64,8 +97,12 @@ def intersection(set1, set2):
     operators (+, -, *, &, |) and functions (intersection, union) 
     that are built-in to Python.
     """
-    # TODO: add any code necessary here
-    pass
+    new_set = set()
+    for item in set1:
+        if item in set2:
+            new_set.add(item)
+    
+    return new_set
 
 def union(set1, set2):
     """
@@ -73,20 +110,23 @@ def union(set1, set2):
     from both sets.   Do not use the set operators (+, -, *, &, |)
     and functions (intersection, union) that are built-in to Python.
     """
-    # TODO: add any code necessary here
-    pass
+    new_set = set1
+    for item in set2:
+        new_set.add(item)
+
+    return new_set
 
 # DO NOT CHANGE
 bag_1 = {"Shoes", "Laptop", "Book", 23, 7, 156, True}
 bag_2 = {"Medicine", "Laptop", "Shoes", "Lunch", 23, 51, 48, False, True}
-print(intersection(s1,s2))  # Should show {4, 5}
-print(union(s1,s2)) # Should show {1, 2, 3, 4, 5, 6, 7, 8}
+print(intersection(bag_1,bag_2))  # Should show {'Laptop', True, 23, 'Shoes'}. Your output may be in a different order and that it OK.
+print(union(bag_1,bag_2)) # Should show {False, True, 7, 'Shoes', 'Lunch', 48, 51, 'Medicine', 23, 'Laptop', 'Book', 156}. Your output may be in a different order and that it OK.
 
 # DO NOT CHANGE
 bag_1 = {"Shoes", "Laptop", "Book", 23, 7, 156, True}
 bag_2 = {"Medicine", "Pen", "Paper", "Lunch", 8, 51, 48, False}
-print(intersection(s1,s2))  # Should show an empty set
-print(union(s1,s2)) # Should show {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+print(intersection(bag_1,bag_2))  # Should show an empty set.
+print(union(bag_1,bag_2)) # Should show {False, True, 7, 8, 'Shoes', 'Pen', 'Lunch', 48, 51, 'Medicine', 23, 'Laptop', 'Paper', 'Book', 156}. Your output may be in a different order and that it OK.
 ```
 
 ## Helpful Python Module
@@ -96,3 +136,7 @@ Sets are a data structure which is built-in to core Python. Here is a link to th
 [Python Set Documentation](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)
 
 ## References
+
+[Intersection & Union Solution](https://github.com/Morthais/data_structure_final/blob/main/2-set_solution.md)
+
+[Extra Help with Sets](https://realpython.com/python-sets/)
