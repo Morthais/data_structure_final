@@ -30,7 +30,7 @@ Another link on [Big O Notation](https://medium.com/fintechexplained/time-comple
 |remove()|set.remove(item)|Removes an item from the set.|O(1), Constant Time performance for adding to the top of a set.|
 |value_exists()|item in set:|Returns True or False depending on whether the item is in the set.|O(1), Constant Time performance for adding to the top of a set.|
 |check_size()|len(set)|Returns the number of items in the set as an integer.|O(1), Constant Time performance for adding to the top of a set.|
-|union()|set_1.union(set_2)|Creates a new set with elements from both set_1 and set_2.|O(n), Linear Time performance for uniting two sets.|
+|union()|set_1.union(set_2)|Creates a new set with elements from both set_1 and set_2.|O(n), Linear Time performance to unite two sets.|
 |intersection()|set_1.intersection(set_2)|Creates a new set with elements common to both set_1 and set_2.|O(n), Linear Time performance for finding intersection between two sets.|
 
 ## Example 1
