@@ -124,7 +124,7 @@ print(union(bag_1,bag_2)) # Should show {False, True, 7, 8, 'Shoes', 'Pen', 'Lun
 
 ## Helpful Python Module
 
-Sets are a data structure which is built-in to core Python. Here is a link to the documentation of built-in operations which may help you solve the problem.
+Sets are a data structure which is built-in to core Python. Here is a link to the documentation of built-in set operations which may help you solve the problem.
 
 [Python Set Documentation](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)
 
