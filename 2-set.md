@@ -10,6 +10,8 @@ Imagine you have a bag. Your bag has one special rule which you must always reme
 
 The set has several simple operations in Python which we will discuss later, but for now we will introduce the simplest ones. When you add an item to a set we call it an "add" operation. When you remove an item from a set we call it a "remove" operation. You can check if items are in a set, just as you would if you looked into the bag, and you can check the size of a set simple by checking the length of the set.
 
+![Set_Bag](https://user-images.githubusercontent.com/60240900/161175019-66556e73-f82d-477e-be64-d0e4b17f89a5.png)
+
 ### What is the purpose of a Set?
 
 Every data structure is a tool that is better at solving some problems than others. A basic set is used to test for membership and eliminate duplicate entries. They come into play when sorting through large amounts of data through an API or when interacting with a database. Sets support mathematical operations like union, intersection, difference, and several other useful operations which allow us compare different data sets to find patterns and learn new information. Their performance is also incredible with most operations performing in constant time, or O(1), which is the fastest it can get.
