@@ -93,6 +93,6 @@ print(union(s1,s2)) # Should show {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 
 Sets are a data structure which is built-in to core Python. Here is a link to the documentation of built-in operations which may help you solve the problem.
 
-[Python Set Documentation](https://docs.python.org/2/library/sets.html)
+[Python Set Documentation](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)
 
 ## References
