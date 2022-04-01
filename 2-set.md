@@ -48,7 +48,7 @@ When considering a data structure it is important to know the performance of tha
 |union()|set_1.union(set_2)|Creates a new set with elements from both set_1 and set_2.|O(n), Linear Time performance to unite two sets.|
 |intersection()|set_1.intersection(set_2)|Creates a new set with elements common to both set_1 and set_2.|O(n), Linear Time performance to find intersection between two sets.|
 
-## Example 1
+## Example
 
 How would a set be implemented in Python? Remember, a set on the most basic level just a list that doesn't allow duplicates. Copy the example below into your code editor and run it to better understand how sets work. Play around a little on your own as well to discover some of the unique behavior of sets.
 
