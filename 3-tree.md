@@ -26,7 +26,7 @@ Whenever we want to insert into a Binary Search Tree we do so with [Recursion](h
 
 In a binary search tree, values are inserted depending on the answer to a question: is the data in the node we want to insert greater or lesser than the data in the node we are currently looking at? If the value of the node you want to insert is less than the current node, then look to the next node on the left. If the value of the node you want to insert is greater than the current node, then look to the next node on the right. ONLY add the node to the tree if the value of the node in that position is None. This means there is no node there already, which also means no conflict. If a node with a value already exists where you want to insert your node, then continue the search recursively by calling the insert function with the next node and the one you want to insert until an empty place in the tree is found. In recursion we call this a smaller problem because we are still searching for the correct, empty spot to insert the node.
 
-The following code is a Binary Search Tree with an insert class. Please study and understand how to insert into a binary tree.
+The following code is a Binary Search Tree with an insert class. Please study and understand how to insert into a binary tree. Please note that the following code is not plug-and-play but will be a useful reference when you build your own binary search tree at the end of this tutorial.
 
 ```
 class BST:
@@ -95,24 +95,7 @@ class BST:
             else:
                 # Need to keep looking.  Call _insert
                 # recursively on the right sub-tree.
-                self._insert(data, node.right)
-                
-# Sample Test Cases (may not be comprehensive) 
-print("\nTEST CASES")
-tree = BST()
-tree.insert(5)
-tree.insert(3)
-tree.insert(7)
-# After implementing 'no duplicates' rule,
-# this next insert will have no effect on the tree.
-tree.insert(7)  
-tree.insert(4)
-tree.insert(10)
-tree.insert(1)
-tree.insert(6)
-for x in tree:
-    print(x)  # 1, 3, 4, 5, 6, 7, 10
-        
+                self._insert(data, node.right)        
 ```
 
 ## Searching
