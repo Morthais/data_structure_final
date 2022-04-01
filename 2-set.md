@@ -14,7 +14,7 @@ The set has several simple operations in Python which we will discuss later, but
 
 ### What is the purpose of a Set?
 
-Every data structure is a tool that is better at solving some problems than others. A basic set is used to test for membership and eliminate duplicate entries. They come into play when sorting through large amounts of data through an API or when interacting with a database. Sets support mathematical operations like union, intersection, difference, and several other useful operations which allow us compare different data sets to find patterns and learn new information about a set of data. Their performance is also incredible with most operations performing in constant time, or O(1), which is the fastest it can get.
+Every data structure is a tool that is better at solving some problems than others. A basic set is used to test for membership and eliminate duplicate entries. They come into play when sorting through large amounts of data through an API or when interacting with a database. Sets support mathematical operations like union, intersection, and several other useful operations which allow us compare different data sets to find patterns and learn new information about a set of data. Their performance is also incredible with most operations performing in constant time, or O(1), which is the fastest it can get.
 
 ### What kind of errors are common when using a Set?
 
@@ -22,15 +22,16 @@ TBD
 
 ## Set Functions in Python
 
+Another link on [Big O Notation](https://medium.com/fintechexplained/time-complexities-of-python-data-structures-ddb7503790ef).
+
 |Function|Python Code|Description|Performance|
 |---|---|---|---|
-|add()|   |   |   |
-|remove()|   |   |   |
-|value_exists()|   |   |   |
-|check_size()|   |   |   |
-|union()|   |   |   |
-|intersection()|   |   |   |
-|difference()|   |   |   |
+|add()|set.add()|Adds an item to the set.|O(1), Constant Time performance for adding to a set.|
+|remove()|set.remove(item)|Removes an item from the set.|O(1), Constant Time performance for adding to the top of a set.|
+|value_exists()|item in set:|Returns True or False depending on whether the item is in the set.|O(1), Constant Time performance for adding to the top of a set.|
+|check_size()|len(set)|Returns the number of items in the set as an integer.|O(1), Constant Time performance for adding to the top of a set.|
+|union()|set_1.union(set_2)|Creates a new set with elements from both set_1 and set_2.|O(n), Linear Time performance for uniting two sets.|
+|intersection()|set_1.intersection(set_2)|Creates a new set with elements common to both set_1 and set_2.|O(n), Linear Time performance for finding intersection between two sets.|
 
 ## Example 1
 
