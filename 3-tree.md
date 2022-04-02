@@ -347,4 +347,4 @@ This link is to a Python binarytree library from the Python Package Index. It al
 
 [Tree Solution](https://github.com/Morthais/data_structure_final/blob/main/3-tree_solution.md)
 
-[Extra Help](https://pythonwife.com/binary-search-tree-in-python/)
+[Extra Help with Trees](https://pythonwife.com/binary-search-tree-in-python/)
