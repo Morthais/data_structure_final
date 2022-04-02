@@ -35,156 +35,44 @@ In a binary search tree, values are inserted depending on the answer to a questi
 
 The following code is a Binary Search Tree with an insert class. Please study and understand how to insert into a binary tree. Please note that the following code is not plug-and-play but will be a useful reference when you build your own binary search tree at the end of this tutorial.
 
-```
-class BST:
-    """
-    Implement the Binary Search Tree (BST) data structure.  The Node 
-    class below is an inner class.  An inner class means that its real 
-    name is related to the outer class.  To create a Node object, we will 
-    need to specify BST.Node
-    """
-
-    class Node:
-        """
-        Each node of the BST will have data and links to the 
-        left and right sub-tree. 
-        """
-
-        def __init__(self, data):
-            """ 
-            Initialize the node to the data provided.  Initially
-            the links are unknown so they are set to None.
-            """
-       
-            self.data = data
-            self.left = None
-            self.right = None
-
-    def __init__(self):
-        """
-        Initialize an empty BST.
-        """
-        self.root = None
-
-    def insert(self, data):
-        """
-        Insert 'data' into the BST.  If the BST
-        is empty, then set the root equal to the new 
-        node.  Otherwise, use _insert to recursively
-        find the location to insert.
-        """
-        if self.root is None:
-            self.root = BST.Node(data)
-        else:
-            self._insert(data, self.root)  # Start at the root
-
-    def _insert(self, data, node):
-        """
-        This function will look for a place to insert a node
-        with 'data' inside of it.  The current sub-tree is
-        represented by 'node'.  This function is intended to be
-        called the first time by the insert function.
-        """
-        if data < node.data:
-            # The data belongs on the left side.
-            if node.left is None:
-                # We found an empty spot
-                node.left = BST.Node(data)
-            else:
-                # Need to keep looking.  Call _insert
-                # recursively on the left sub-tree.
-                self._insert(data, node.left)
-        elif data > node.data:
-            # The data belongs on the right side.
-            if node.right is None:
-                # We found an empty spot
-                node.right = BST.Node(data)
-            else:
-                # Need to keep looking.  Call _insert
-                # recursively on the right sub-tree.
-                self._insert(data, node.right)        
-```
-
 ## Searching
 
-
-
-```
-class BST:
-    """
-    Implement the Binary Search Tree (BST) data structure.  The Node 
-    class below is an inner class.  An inner class means that its real 
-    name is related to the outer class.  To create a Node object, we will 
-    need to specify BST.Node
-    """
-
-    class Node:
-        """
-        Each node of the BST will have data and links to the 
-        left and right sub-tree. 
-        """
-
-        def __init__(self, data):
-            """ 
-            Initialize the node to the data provided.  Initially
-            the links are unknown so they are set to None.
-            """
-       
-            self.data = data
-            self.left = None
-            self.right = None
-
-    def __init__(self):
-        """
-        Initialize an empty BST.
-        """
-        self.root = None
-        
-    def __contains__(self, data):
-        """ 
-        Checks if data is in the BST.  This function
-        supports the ability to use the 'in' keyword:
-
-        if 5 in my_bst:
-            ("5 is in the bst")
-
-        """
-        return self._contains(data, self.root)  # Start at the root
-
-    def _contains(self, data, node):
-        """
-        This function will search for a node that contains
-        'data'.  The current sub-tree being search is 
-        represented by 'node'.  This function is intended
-        to be called the first time by the __contains__ function.
-        """
-        if node == None:    # Base Case: data does not exist in the tree
-            return False
-        elif node.data == data:   # Base Case: data exists in the tree
-            return True
-
-        elif data < node.data:
-            # Need to keep looking.  Call _contains
-            # recursively on the left sub-tree.
-            return self._contains(data, node.left)  # returns whether number exists
-        elif data > node.data:
-            # Need to keep looking.  Call _contains
-            # recursively on the right sub-tree.
-            return self._contains(data, node.right) # returns whether number exists
-
-# Sample Test Cases (may not be comprehensive) 
-print("\nTEST CASES")
-print(3 in tree) # True
-print(2 in tree) # False
-print(7 in tree) # True
-print(6 in tree) # True
-print(9 in tree) # False
-
-```
 
 ## Removing
 
 ## Example
+
+```
+class BST:
+    """
+    Implement the Binary Search Tree (BST) data structure.  The Node 
+    class below is an inner class.  An inner class means that its real 
+    name is related to the outer class.  To create a Node object, we will 
+    need to specify BST.Node
+    """
+
+    class Node:
+        """
+        Each node of the BST will have data and links to the 
+        left and right sub-tree. 
+        """
+
+        def __init__(self, data):
+            """ 
+            Initialize the node to the data provided.  Initially
+            the links are unknown so they are set to None.
+            """
+       
+            self.data = data
+            self.left = None
+            self.right = None
+
+    def __init__(self):
+        """
+        Initialize an empty BST.
+        """
+        self.root = None
+```
 
 ## 
 
