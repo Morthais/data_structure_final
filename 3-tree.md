@@ -153,18 +153,18 @@ class BST:
 
 # Sample Test Cases (may not be comprehensive) 
 tree = BST()
-tree.insert(5)
-tree.insert(3)
-tree.insert(7)
+tree.insert(23)
+tree.insert(54)
+tree.insert(9)
 # After implementing 'no duplicates' rule,
 # this next insert will have no effect on the tree.
-tree.insert(7)  
+tree.insert(1)  
 tree.insert(4)
-tree.insert(10)
-tree.insert(1)
-tree.insert(6)
+tree.insert(100)
+tree.insert(17)
+tree.insert(61)
 for x in tree:
-    print(x)  # 1, 3, 4, 5, 6, 7, 10
+    print(x)  # 1, 4, 8, 17, 23, 54, 61, 100
 ```
 
 ## Searching
