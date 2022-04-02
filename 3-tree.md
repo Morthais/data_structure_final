@@ -345,6 +345,8 @@ for x in reversed(tree):
 
 The first link is to a Python binarytree library from the Python Package Index. It allows you to declare a tree object and perform some operations to navigate, display, and interact with the tree. This is optional learning and may or may not help you with the problem above.
 
-(PyPi binarytree)[https://pypi.org/project/binarytree/]
+[PyPi binarytree](https://pypi.org/project/binarytree/)
 
 ## References
+
+[Tree Solution](https://github.com/Morthais/data_structure_final/blob/main/3-tree_solution.md)
