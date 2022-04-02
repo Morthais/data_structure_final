@@ -171,7 +171,7 @@ for x in tree:
 
 What I want you to do now is take the same problem above and traverse the binary tree backwards (i.e. when you loop through the tree).
 
-Implement __reversed__ and _traverse_backward.
+Implement ____reversed____ and ___traverse_backward__.
 
 HINT: This is very similar to the example above.
 
