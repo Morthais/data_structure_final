@@ -25,6 +25,10 @@ TypeError
 
 ![Type Error](https://user-images.githubusercontent.com/60240900/161353035-63cbb601-189e-4e05-aaa6-07a4edff7841.png)
 
+HiddenErrors
+
+These types of errors do not show up in the terminal. You are just not getting the output you want which means you should probably redesign your solution.
+
 ## Inserting
 
 Whenever we want to insert into a Binary Search Tree we do so with [Recursion](https://www.w3schools.com/python/gloss_python_function_recursion.asp). At it's most basic level, recursion is just a function calling itself in a loop until a condition, also called the base case, is reached. There can be more than one base case. Recursion is key to understanding how to navigate a tree so take a minute to look at the link and really learn the basics of recursion. Writing down the steps down in English on a piece of paper may help you discover what is actually happening.
