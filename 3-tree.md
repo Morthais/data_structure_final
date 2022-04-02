@@ -6,13 +6,13 @@ TODO: Talk about recursion in this module.
 
 ## Introduction
 
-What is a tree?
+### What is a tree?
 
 Imagine your biological family history. If you are like most people then you have one mother and one father. Following this pattern, each pf your parents also has a mother and a father (you call these your grandparents). Yet further, even back to the beginning of time, every person has one biological mother and father. We call a visual representation of this a family tree. The root in a family tree is you. The rest of the tree is made up of connected nodes, namely your parents and grandparents on either side going as far back as you can imagine. Trees are a useful data structure for representing genealogy, but they have other uses as well. In this tutorial you will learn how to build a basic binary search tree and a few of the functions used to operate upon a binary search tree.
 
 ![Family Tree](https://user-images.githubusercontent.com/60240900/161341533-2be7d064-11b9-4d1b-affc-d5236632f348.png)
 
-What is the purpose of a tree?
+### Balanced and Unbalanced Binary Trees
 
 Trees are good at representing hierarchy. In the example above you can see genealogy hierarchy where the value determining location of the nodes is relationship to you, the root of the tree. However, there are different kinds of binary search trees. Hierarchy in governments is one example. If we were to model an unbalanced binary tree in the real world, we would get something akin to a dictatorship where the ruler is the root node at the top with supreme power over everything below. Everything in a dictator tree is placed on the left of the root, since everyone is less than the root ruler. Unbalanced binary search trees tend to be less efficient because its structure requires more steps to be taken in order to reach any given node. On the other hand, we have a balanced binary search tree, which if modeled in the real world would look something like the Monarchy in England where the king is at the top, but Parliament has some power over the king. That would place them on the right, greater than the king. The king has servants under his command, which would place them on the left. Each servant may be in charge of other servants, and so on and so forth. Therefore it may look like the king is at the top, but in reality Parliament has the power. The pictures below may help you picture these trees.
 
@@ -21,7 +21,7 @@ Trees are good at representing hierarchy. In the example above you can see genea
 ![Balanced Binary Search Tree](https://user-images.githubusercontent.com/60240900/161355164-447c9d1d-d746-47b7-a3ee-fa520a2d60f7.png)
 
 
-What kind of errors are common when using a tree?
+### What kind of errors are common when using a tree?
 
 TypeError
 
