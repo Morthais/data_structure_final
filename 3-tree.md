@@ -33,7 +33,7 @@ In a binary search tree, values are inserted depending on the answer to a questi
 
 ## Example
 
-The following code is a Binary Search Tree which has the function to insert and traverse the binary tree. Please study and understand.
+How would a tree be implemented in Python? Remember, a tree is just an ordered collection of nodes pointing to their left or right. The following code is a Binary Search Tree which has the function to insert and traverse a binary tree. Please study and play around a little to understand binary search trees better. Breaking code is sometimes where we gain the best insights into new ideas. Give it a try!
 
 ```
 class BST:
@@ -169,11 +169,7 @@ for x in tree:
 
 ## Problem
 
-What I want you to do now is take the same problem above and traverse the binary tree backwards (i.e. when you loop through the tree).
-
-Implement ____reversed____ and ___traverse_backward__.
-
-HINT: This is very similar to the example above.
+Now it's your turn! Implement __reversed__ and __traverse_backward__ using the example above as a reference.
 
 ```
 class BST:
@@ -343,10 +339,12 @@ for x in reversed(tree):
 
 ## Helpful Python Module
 
-The first link is to a Python binarytree library from the Python Package Index. It allows you to declare a tree object and perform some operations to navigate, display, and interact with the tree. This is optional learning and may or may not help you with the problem above.
+This link is to a Python binarytree library from the Python Package Index. It allows you to declare a tree object and perform some operations to navigate, display, and interact with the tree. This is optional learning and may or may not help you with the problem above.
 
 [PyPi binarytree](https://pypi.org/project/binarytree/)
 
 ## References
 
 [Tree Solution](https://github.com/Morthais/data_structure_final/blob/main/3-tree_solution.md)
+
+[Extra Help](https://pythonwife.com/binary-search-tree-in-python/)
